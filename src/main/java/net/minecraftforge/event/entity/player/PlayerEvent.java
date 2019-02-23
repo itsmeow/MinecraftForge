@@ -199,7 +199,7 @@ public class PlayerEvent extends LivingEvent
          * True if this event was fired because the player died.
          * False if it was fired because the entity switched dimensions.
          */
-        public boolean isWasDeath()
+        public boolean getWasDeath()
         {
             return wasDeath;
         }
